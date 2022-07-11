@@ -32,6 +32,6 @@ In the Tcl interpreter, you can call back to Lua using the Tcl `lua` command whi
 
 `tk.ready()`: Checks whether the Tcl interpreter is still up and running, after processing any pending events in the interpreter. This provides an alternative to `tk.main()` which enables you to code your own custom main loops in Lua.
 
-`tk.set(var, val)`, `tk.unset(var)`, `tk.unset(var)`: Set and get global Tcl variables.
+`tk.set(var, val)`, `tk.unset(var)`, `tk.get(var)`: Set and get global Tcl variables.
 
 `tk.join(xs)`, `tk.split(s)`: Convert between Lua and Tcl lists.
