@@ -5,6 +5,7 @@
 # Package name and version number:
 dist = lua-tk-$(version)
 version = 1.0
+rev = 1
 
 # This has been set up so that it will work with luarocks or without it.
 # With luarocks: `sudo luarocks make` to build and install, `sudo luarocks
@@ -17,7 +18,7 @@ installdir = $(shell pkgconf --variable INSTALL_CMOD lua)
 # Where to install source (Lua) modules.
 installdir_l = $(shell pkgconf --variable INSTALL_LMOD lua)
 
-distfiles = COPYING README.md Makefile tk.c examples/*
+distfiles = COPYING README.md Makefile luatk-$(version)-$(rev).rockspec tk.c examples/*
 
 # You may have to adjust these to the appropriate values for your system if
 # you're installing without luarocks.
