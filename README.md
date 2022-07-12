@@ -2,9 +2,11 @@
 
 This module provides a basic interface between Lua and Tcl/Tk. The operations of this module allow you to execute arbitrary commands in the Tcl interpreter, set and retrieve variable values in the interpreter, and invoke Lua callbacks from Tcl/Tk. It should thus provide all the machinery required to code fairly sophisticated Tcl/Tk applications in Lua.
 
-This is a fairly straightforward port of the corresponding Pure module, see <https://agraef.github.io/pure-docs/pure-tk.html>. It implements most of the basic operations of that module in Lua, but lacks some of the more advanced functionality the Pure version provides. A brief synopsis of the available functions can be found below. Please also check the examples folder for some sample Lua scripts showing how to utilize this module.
+This is a fairly straightforward port of the corresponding Pure module, see <https://agraef.github.io/pure-docs/pure-tk.html>. It implements most of the basic operations of that module in Lua, but lacks some of the more advanced functionality. A brief synopsis of the available functions can be found below. Please also check the examples folder for some sample Lua scripts showing how to utilize this module.
 
 ## Installation
+
+You'll need Lua, of course (Lua 5.2 or later should be fine, 5.4 has been tested), and Tcl/Tk (8.6 has been tested). (A few of the examples may also need additional Tcl modules, such as Gnocl and VTK, please check the Tcl sources for details.)
 
 This version comes with a rockspec which lets you conveniently install the module using [luarocks](https://luarocks.org/).
 
