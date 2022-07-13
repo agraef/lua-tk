@@ -1,7 +1,7 @@
 package = "luatk"
 version = "1.0-1"
 source = {
-   url = "..." -- We don't have one yet
+   url = "https://github.com/agraef/lua-tk"
 }
 description = {
    summary = "Embeds a Tcl/Tk interpreter in your Lua programs.",
@@ -11,7 +11,7 @@ description = {
       Tcl interpreter, set and retrieve variable values in the interpreter,
       and invoke Lua callbacks from Tcl/Tk.
    ]],
-   homepage = "http://...", -- We don't have one yet
+   homepage = "https://github.com/agraef/lua-tk",
    license = "BSD-3"
 }
 dependencies = {
