@@ -10,9 +10,9 @@ You'll need Lua, of course (Lua 5.2 or later should be fine, 5.4 has been tested
 
 This version comes with a rockspec which lets you conveniently install the module using [luarocks](https://luarocks.org/).
 
-To build and install: `sudo luarocks make`
+To build and install: `sudo luarocks install lua-tk`
 
-To uninstall: `sudo luarocks remove luatk`
+To uninstall: `sudo luarocks remove lua-tk`
 
 The module can also be installed in the usual way if you don't have luarocks, as follows:
 

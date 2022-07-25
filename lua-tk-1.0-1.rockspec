@@ -1,7 +1,8 @@
-package = "luatk"
+package = "lua-tk"
 version = "1.0-1"
 source = {
-   url = "https://github.com/agraef/lua-tk"
+   url = "git://github.com/agraef/lua-tk",
+   tag = "1.0"
 }
 description = {
    summary = "Embeds a Tcl/Tk interpreter in your Lua programs.",
@@ -15,7 +16,7 @@ description = {
    license = "BSD-3"
 }
 dependencies = {
-   "lua >= 5.1, < 5.5"
+   "lua >= 5.1"
 }
 build = {
    type = "make",
