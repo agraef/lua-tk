@@ -37,3 +37,7 @@ In the Tcl interpreter, you can call back to Lua using the Tcl `lua` command whi
 `tk.set(var, val)`, `tk.unset(var)`, `tk.get(var)`: Set and get global Tcl variables.
 
 `tk.join(xs)`, `tk.split(s)`: Convert between Lua and Tcl lists.
+
+## Notes
+
+There are various Tcl add-on packages which can be useful for Lua programmers. In particular, you may want to look at [Gnocl](https://dr-baum.net/gnocl/), which lets you create nice-looking GTK+ GUIs in Tcl, and [VTK](https://www.vtk.org/), a powerful scientific visualization package which has Tcl bindings. As I find these so useful, and ready-made packages can be hard to find, I've provided some suitable Arch and Debian/Ubuntu packages for your convenience. You can find the former in the Arch User Repositories ([Gnocl](https://aur.archlinux.org/packages?O=0&K=gnocl), [VTK](https://aur.archlinux.org/packages/vtk6-legacy)), and the latter at the Open Build Service ([Gnocl](https://build.opensuse.org/project/show/home:aggraef:gnocl), [VTK](https://build.opensuse.org/project/show/home:aggraef:vtk6)).
