@@ -8,7 +8,7 @@
 package require vtk
 package require vtkinteraction
 
-# If you have Gnocl installed (http://www.gnocl.org/) then you'll get a
+# If you have Gnocl installed (https://dr-baum.net/gnocl/) then you'll get a
 # somewhat fancier GTK+ GUI, otherwise you'll have to be content with plain
 # Tk. Set GTK to 0 if you always want the Tk GUI anyway.
 
