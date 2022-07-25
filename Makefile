@@ -14,9 +14,9 @@ rev = 1
 # make uninstall` to remove the `tk.so` module from your system.
 
 # Where to install compiled (C) modules.
-installdir = $(shell pkgconf --variable INSTALL_CMOD lua)
+installdir = $(shell pkg-config --variable INSTALL_CMOD lua)
 # Where to install source (Lua) modules.
-installdir_l = $(shell pkgconf --variable INSTALL_LMOD lua)
+installdir_l = $(shell pkg-config --variable INSTALL_LMOD lua)
 
 distfiles = COPYING README.md Makefile luatk-$(version)-$(rev).rockspec tk.c examples/*
 
